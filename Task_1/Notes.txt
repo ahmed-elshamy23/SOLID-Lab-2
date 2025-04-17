@@ -1,0 +1,8 @@
+﻿Problem 1:
+- "ILead" (interface segregation)
+-- Solution ======> "ILead" is divided into "IWork", "IAssign" and left for backward compatibility
+
+Problem 2:
+- "Manager" assigns tasks to "TeamLead"
+- "TeamLead" assigns tasks to "Developer"
+-- Solution ======> "Person" is added as a parent for all classes

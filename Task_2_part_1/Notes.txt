@@ -1,0 +1,9 @@
+﻿Problem 1:
+- File managers are redundant
+-- Solution ======> introduced a generic base class "FileManager<T>" for all file managers with
+a default implementation of its methods (virtual methods)
+
+Problem 2 (based on 1):
+- Type parameter of the generic class must have the two functions of the file (save - load)
+-- Solution ======> introduced "IFile" as a contract for all files and added a constraint
+on "T" to implement it

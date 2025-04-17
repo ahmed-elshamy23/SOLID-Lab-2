@@ -1,0 +1,7 @@
+﻿Problem 1:
+- "ReadOnlyFile" is introduced
+-- Solution ======> overridden the inherited function "SaveText" from "SqlFile"
+
+Problem 2:
+- "SqlFileManage" must handle the new "ReadOnlyFile"
+-- Solution ======> overridden the inherited function "SaveTextIntoFiles" from "FileManager<T>"
